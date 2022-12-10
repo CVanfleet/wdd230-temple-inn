@@ -1,0 +1,124 @@
+{
+    "temples" : [
+        {
+            "name" : "Barranquilla Colombia Temple",
+            "var" : "barranquilla",
+            "address" : "Carrera 46 via al mar pr 107 Sentido: de Barranquilla a Cartagena Barranquilla Atlantico, Colombia",
+            "telephone" : "(57)5-310-0200",
+            "email" : "barranquillatemple@churchofjesuschrist.com", 
+            "services" : [
+                "No clothing rental available", 
+                "No cafeteria available", 
+                "No patron housing available", 
+                "No distribution center nearby"], 
+            "history" : {
+                "announced" : 1317448800,
+                "groundbreaking" : 1455951600,
+                "dedicated" : 1544338800
+            }, 
+            "ordinance" : "6:00 AM - 7:30 PM",
+            "session" : "6:00 AM - 7:30 PM", 
+            "closures" : [
+                1670482800, 
+                1671865200, 
+                1671951600, 
+                1672470000, 
+                1672556400,
+                1681711200,
+                1682920800,
+                1698645600
+            ],
+            "cityID" : "3689147"
+        },
+        {
+            "name" : "Payson Utah Temple",
+            "var" : "payson",
+            "address" : "1494 S 930 W Payson UT 84651 United States",
+            "telephone" : "(1)801-754-4949",
+            "email" : "nauvootemple@churchofjesuschrist.com", 
+            "services" : [
+                "No clothing rental available", 
+                "No cafeteria available", 
+                "No patron housing available", 
+                "No distribution center nearby"], 
+            "history" : {
+                "announced" : 1264402800,
+                "groundbreaking" : 1318053600,
+                "dedicated" : 1433656800
+            }, 
+            "ordinance" : "6:00 AM - 7:30 PM",
+            "session" : "6:00 AM - 7:30 PM", 
+            "closures" : [
+                1671778800,
+                1670482800, 
+                1671865200, 
+                1671951600, 
+                1672470000, 
+                1672556400,
+                1681711200,
+                1682920800,
+                1698645600
+            ],
+            "cityID" : "5779548"
+        },
+        {
+            "name" : "Nauvoo Illinois Temple",
+            "var" : "nauvoo",
+            "address" : "50 N Wells St Nauvoo IL 62354 United States",
+            "telephone" : "(1)217-453-6252",
+            "email" : "barranquillatemple@churchofjesuschrist.com", 
+            "services" : [
+                "No clothing rental available", 
+                "No cafeteria available", 
+                "No patron housing available", 
+                "No distribution center nearby"], 
+            "history" : {
+                "announced" : 923209200,
+                "groundbreaking" : 940744800,
+                "dedicated" : 1025157600
+            }, 
+            "ordinance" : "6:00 AM - 7:30 PM",
+            "session" : "6:00 AM - 7:30 PM", 
+            "closures" : [ 
+                1671865200, 
+                1671951600, 
+                1672470000, 
+                1672556400,
+                1681711200,
+                1682920800,
+                1698645600
+            ],
+            "cityID" : "4903330"
+        },
+        {
+            "name" : "Seattle Washington Temple",
+            "var" : "seattle",
+            "address" : "2808 148th Ave SE Bellevue WA 98007-6453 United States",
+            "telephone" : "(1)425-643-5144",
+            "email" : "seattletemple@churchofjesuschrist.com", 
+            "services" : [
+                "No clothing rental available", 
+                "No cafeteria available", 
+                "No patron housing available", 
+                "No distribution center nearby"], 
+            "history" : {
+                "announced" : 185266800,
+                "groundbreaking" : 265096800,
+                "dedicated" : 343292400
+            }, 
+            "ordinance" : "6:00 AM - 7:30 PM",
+            "session" : "6:00 AM - 7:30 PM", 
+            "closures" : [
+                1670482800, 
+                1671865200, 
+                1671951600, 
+                1672470000, 
+                1672556400,
+                1681711200,
+                1682920800,
+                1698645600
+            ],
+            "cityID" : "5809844"
+        }
+    ]
+}

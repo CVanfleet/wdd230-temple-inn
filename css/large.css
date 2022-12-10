@@ -1,0 +1,71 @@
+@media only screen and (width >= 64rem){
+    /*#region Header */
+    button#hamburgerBtn{
+        display: none;
+    }
+
+    header div h1{
+        display: flex;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+
+    header div img {
+        width: 60px;
+        margin: 0;
+    }
+
+    nav#navList ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav#navList ul li a {
+        padding: 0.25em 3em;
+    }
+    
+    nav#navList ul li{
+        padding: 0px;
+    }
+
+    div#cta-above{
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    div#cta-above{
+        padding: 0px;
+    }
+
+    div#cta-below{
+        display: none;
+    }
+    /*#endregion Header*/
+
+    /*#region Home*/
+    main{
+        margin-top: 120px;
+    }
+
+    main#main-home {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section#special-events {
+        grid-column: 1 / 4;
+    }
+
+    section#call-to-action-element {
+        grid-column: 1 / 4;
+    }
+
+    section#contact-info {
+        grid-column: 3 / 4;
+    }
+
+    section#contact-info p {
+        margin: 20% 0px 20% 0;
+    }
+
+    /*#endregion Home*/
+}
