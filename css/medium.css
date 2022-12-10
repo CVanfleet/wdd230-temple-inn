@@ -70,4 +70,14 @@
 
     /*#endregion Home*/
 
+    /*#region Temples*/
+        main#main-temple{
+            padding: 1% 10%;
+        }
+
+        div.cards {
+            margin-bottom: 30px;
+        }
+    /*#endregion Temples*/
+
 }
