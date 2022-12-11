@@ -69,7 +69,12 @@
 
     /*#endregion Home*/
 
-    /*#region Temple*/
-   
-    /*#endregion Temple*/
+    /*#region Reservation*/
+    main#main-reservation {
+        margin-top: 124px;
+        padding-left: 10%;
+    }
+    /*#endregion Reservation*/
+
+
 }

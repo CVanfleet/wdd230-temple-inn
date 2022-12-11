@@ -379,4 +379,167 @@ div.cards img {
     width: 70%;
 }
 
+img.like-buttons:hover{
+    filter: brightness(120%);
+}
+
 /*#endregion Temples*/
+
+/*#region Reservation*/
+
+main#main-reservation {
+    margin-top: 93px;
+    background-image: linear-gradient(var(--main), var(--light), white);
+}
+
+main#main-reservation div h1 {
+    color: var(--light);
+    padding: 10px;
+}
+
+main#main-reservation section {
+    padding: 10px;
+    font-size: 14pt;
+}
+
+main#main-reservation section form label select#temple {
+    display: block;
+}
+
+main#main-reservation section form div#booking-dates label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+main#main-reservation section form label:nth-child(1) select {
+    margin-left: 83px;
+    margin-top: 10px;
+}
+
+main#main-reservation section form div#booking-dates label:nth-child(1) input{
+    margin-left: 105px;
+}
+
+main#main-reservation section form div#booking-dates label:nth-child(2) input{
+    margin-left: 112px;
+}
+
+main#main-reservation section form > label:nth-child(4) input{
+    margin-left: 40px;
+}
+
+main#main-reservation section form > label:nth-child(5) input{
+    margin-left: 101px;
+}
+
+main#main-reservation section form > label:nth-child(6) input{
+    margin-left: 135px;
+}
+
+main#main-reservation section form > label:nth-child(7) input{
+    margin-left: 129px;
+}
+
+main#main-reservation section form > label:nth-child(8) input{
+    margin-left: 19px;
+}
+
+main#main-reservation section form > label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+main#main-reservation section form div#room-type {
+    margin-bottom: 20px;
+}
+
+main#main-reservation section form div#room-type label {
+    display: block;
+    padding-left: 190px;
+}
+
+main#main-reservation section form label input[type="number"]{
+    width: 35px;
+}
+
+main#main-reservation section form > label input, main#main-reservation section form label select{
+    border: 2px solid var(--nav);
+    border-radius: 4px;
+}
+
+main#main-reservation section form label input:invalid, main#main-reservation section form label select:invalid{
+    background-color: pink;
+}
+
+main#main-reservation section form input[type="submit"]{
+    text-decoration: none;
+    color: var(--light);
+    background-color: var(--action);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+main#main-reservation section form input[type="submit"]:hover{
+    filter: brightness(120%);
+}
+
+main#main-reservation section form label textarea {
+    display: block;
+    width: 98%;
+    max-width: 395px;
+    border: 2px solid var(--nav);
+    border-radius: 4px;
+}
+/*#endregion Reservation*/
+
+/*#region Confirmation*/
+main#main-confirmation {
+    padding: 10px;
+}
+
+div#confirmation-info table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+td.table-header{
+    font-weight: bold;
+    background-image: linear-gradient(to left, var(--nav), var(--light));
+    color: var(--dark);
+}
+
+td.info {
+    background-color: var(--nav);
+    color: var(--light);
+}
+
+input.confirm {
+    color: var(--light);
+    background-color: #339336;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+input.confirm:hover{
+    filter: brightness(120%);
+}
+
+div#confirm-edit{
+    display: flex;
+}
+
+button#edit {
+    color: var(--light);
+    background-color: var(--nav);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+button#edit:hover{
+    filter: brightness(120%);
+}
+/*#endregion Confirmation*/

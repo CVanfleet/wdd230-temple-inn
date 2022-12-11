@@ -22,7 +22,6 @@
                 <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
                 <img src="images/logo-white.png" alt="company logo">
                 <h1>Temple Inn & Suites</h1>
-                <div class="call-to-action" id="cta-above"><a href="/reservation.html">Book Now!</a></div>
                 <a href="https://www.twitter.com/"><img src="images/twitter-round.png" alt="twitter link"></a>
                 <a href="https://www.facebook.com/"><img src="images/facebook-circe.png" alt="facebook link"></a>
             </div>
@@ -43,11 +42,35 @@
                     </li>
                 </ul>
             </nav>
-            <div class="call-to-action" id="cta-below"><a href="/reservation.html">Book Now!</a></div>
         </header>
-        <main>
-            <hr>
-            <hr>
+        <main id="main-reservation">
+            <div><h1>Book your reservation</h1></div>
+            <section>
+                <form name="bookingForm" action="./confirmation.html" method="GET">
+                    <label for="temple">Location:
+                        <select name="temple" id="temple" required>
+                            <option value="" disabled selected hidden>Select Temple</option>
+                        </select>
+                    </label>
+                    <div id="booking-dates">
+                        <label for="booking-start">Start Date: <input type="date" id="booking-start" name="booking-start" required></label>
+                        <label for="booking-end">End Date: <input type="date" id="booking-end" name="booking-end" required></label>
+                    </div> 
+                    <div id="room-type">
+                        <p>Room Type:</p>
+                        <label for="one-bed"><input type="radio" id="one-bed" name="roomType" value="One-bed" checked> One Bed</label>
+                        <label for="two-bed"><input type="radio" id="two-bed" name="roomType" value="Two-bed"> Two Bed</label>
+                        <label for="more-bed"><input type="radio" id="more-bed" name="roomType" value="More-bed"> More Beds (For 10+ people)</label>
+                    </div>
+                    <label for="number">Number of Rooms: <input class="text-input" name="rooms" type="number" min="1" required></label>
+                    <label for="booker-name">Full Name: <input class="text-input" name="booker-name" type="text" id="booker-name" placeholder='"John Doe"' pattern="[A-Za-z ]{4,}" required></label>
+                    <label for="booker-email">Email: <input class="text-input" name="booker-email" class="text-input" type="email" id="booker-email" placeholder='"you@example.com"' required></label>
+                    <label for="booker-phone">Phone: <input class="text-input" name="booker-phone" type="tel" id="booker-phone" placeholder='"123456789"' pattern="[0-9]{10,15}" required></label>
+                    <label for="booker-home">Home State/Country: <input class="text-input" name="booker-country" type="text" id="booker-home" placeholder='(e.g. "Idaho", "Guam")' pattern="[A-Za-z ]{2,56}" required></label>
+                    <label for="comments">Special Accommodations/Comments: <textarea id="comments" name="comments" rows="4" cols="40"></textarea></label>
+                    <input type="submit" value="Book Your Trip" id="book-now">
+                </form>
+            </section>
 
         </main>
 
@@ -77,4 +100,5 @@
         
     </body>
     <script src="js/main.js"></script>
+    <script src="js/reservation.js"></script>
 </html>
