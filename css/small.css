@@ -494,6 +494,7 @@ main#main-reservation section form label textarea {
 /*#endregion Reservation*/
 
 /*#region Confirmation*/
+
 main#main-confirmation {
     padding: 10px;
 }
@@ -543,3 +544,146 @@ button#edit:hover{
     filter: brightness(120%);
 }
 /*#endregion Confirmation*/
+
+/*#region Services*/
+main#main-services h4{
+    font-size: 13pt;
+}
+
+main#main-services div:nth-child(1) h1 {
+    padding: 10px;
+    position: absolute;
+    background-image: linear-gradient(to right, black, rgba(0,0,0, .1));
+    width: 100%;
+    color: var(--light);
+}
+
+main#main-services div:nth-child(1) picture img{
+    width: 100%;
+}
+
+main#main-services div#amenities-container {
+    padding: 10px;
+}
+
+div.extended-links{
+    text-align: center;
+    padding: 10px 10px 30px 0px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(var(--main), white);
+}
+
+div.extended-links div a{
+    text-decoration: none;
+    color: var(--light);
+    background-color: var(--nav);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+div.extended-links div a:hover{
+    filter: brightness(120%);
+}
+
+div.services h4 {
+    background-image: linear-gradient(to right, var(--main), white);
+    color: var(--light);
+    padding: 10px;
+}
+/*#endregion Services*/
+
+/*#region Reception*/
+main#main-reception h1, div.food-setup h2, div.food-setup p {
+    padding: 10px;
+}
+
+div.food-setup div h2 {
+    position: absolute;
+    background-image: linear-gradient(to right, black, rgba(0,0,0, .1));
+    width: 100%;
+    color: var(--light);
+}
+
+div.food-setup div picture img {
+    width: 100%;
+}
+
+div.food-setup p {
+    font-size: 14pt;
+    text-align: center;
+}
+
+div.food-setup{
+    background-image: linear-gradient(var(--main), white, var(--main), white);
+}
+
+div#accommodation-info > div {
+    margin-bottom: 40px;
+}
+
+div#accommodation-info div:nth-child(3){
+    text-align: center;
+}
+
+div#accommodation-info div:nth-child(3) h4{
+    font-size: 18pt;
+}
+
+/*#endregion Reception*/
+
+/*#region Missionary*/
+main#main-missionary h1, main#main-missionary div h2, div#contact-us-container {
+    padding: 10px;
+}
+
+main#main-missionary div h2 {
+    position: absolute;
+    background-image: linear-gradient(to right, black, rgba(0,0,0, .1));
+    color: var(--light);
+    width: 100%;
+}
+
+main#main-missionary > div{
+    background-image: linear-gradient(var(--main), white);
+}
+
+main#main-missionary div picture img{
+    width: 100%;
+}
+
+div#contact-us-container{
+    color: var(--light);
+}
+
+div#contact-us-container label, div#contact-us-container input {
+    display: block;
+}
+
+div#contact-us-container input, div#contact-us-container textarea{
+    margin-bottom: 10px;
+}
+
+div#contact-us-container h4 {
+    font-size: 16pt;
+}
+
+div#contact-us-container input.send-message {
+    padding: 5px;
+    background-color: var(--nav);
+    color: var(--light);
+    border-radius: 4px;
+}
+
+div#contact-us-container input.send-message:hover:enabled{
+    filter: brightness(120%);
+}
+
+input.send-message:disabled{
+    filter: brightness(40%);
+}
+
+input#send-left.send-message{
+    display: none;
+}
+
+/*#endregion Missionary*/

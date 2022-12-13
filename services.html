@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,10 +45,49 @@
             </nav>
             <div class="call-to-action" id="cta-below"><a href="/reservation.html">Book Now!</a></div>
         </header>
-        <main>
-            <hr>
-            <hr>
-
+        <main id="main-services">
+            <div>
+                <h1>Services</h1>
+                <picture>
+                    <source media="(100px <= width <= 450px)" srcset="images/lobby-small.jpeg">
+                    <source media="(451px <= width <= 800px)" srcset="images/lobby-medium.jpeg">
+                    <source media="(801px <= width)" srcset="images/lobby-large.jpeg">
+                    <img src="images/lobby-medium.jpeg" alt="picture of lobby">
+                </picture>
+            </div>
+            <div id="amenities-container">
+                <div id="specialized-services" class="services">
+                    <h4>Specialized Services:</h4>
+                    <ul>
+                        <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
+                        <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
+                        <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
+                        <li>Temple history themed reception and sitting area</li>
+                        <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
+                        <li>A family search center that supports family search and ordinance work</li>
+                    </ul>
+                </div>
+                <div id="free-amenities" class="services">
+                    <h4>Free Amenities:</h4>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Exercise/workout room</li>
+                        <li>Indoor pool</li>
+                        <li>WiFi high-speed internet access and smart TVs</li>
+                        <li>Parking</li>
+                        <li>Temple shuttle</li>
+                        <li>Family history consultation and family ordinance card service</li>
+                    </ul>
+                </div>
+                <div id="reception" class="extended-links">
+                    <h2>Need Ideas for your reception?</h2>
+                    <div><a href="reception-info.html">Click Here!</a></div>
+                </div>
+                <div id="temple-missionary" class="extended-links">
+                    <h2>Are you a full-time temple missionary?</h2>
+                    <div><a href="full-time-missionary.html">Click Here!</a></div>
+                </div>
+            </div>
         </main>
 
         <footer>
@@ -74,7 +113,6 @@
                 </div>
             </div>
         </footer>
-        
+        <script src="js/main.js"></script>
     </body>
-    <script src="js/main.js"></script>
 </html>

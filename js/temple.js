@@ -34,10 +34,10 @@ function templeCards(temple){
                         <h3>${temple.name}</h3>
                         <img src="images/${savedLikes(temple)}" alt="like button" class="like-buttons" id="like-${temple.var}" onclick="toggleLike(this)">
                         <picture id="temple-image">
-                            <source media="(100px <= width <= 450px)" srcset="images/temples/${temple.var}-small.jpeg">
-                            <source media="(451px <= width <= 800px)" srcset="images/temples/${temple.var}-medium.jpeg">
-                            <source media="(801px <= width)" srcset="images/temples/${temple.var}-large.jpeg">
-                            <img src="images/temples/${temple.var}-medium.jpeg" alt="temple image">
+                            <source media="(100px <= width <= 450px)" srcset="images/temples/${temple.var}-small.jpeg" loading="lazy">
+                            <source media="(451px <= width <= 800px)" srcset="images/temples/${temple.var}-medium.jpeg" loading="lazy">
+                            <source media="(801px <= width)" srcset="images/temples/${temple.var}-large.jpeg" loading="lazy">
+                            <img src="images/temples/${temple.var}-medium.jpeg" alt="temple image" loading="lazy">
                         </picture>
                     </div>
                     <div>

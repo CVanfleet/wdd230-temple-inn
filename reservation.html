@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,9 +62,9 @@
                         <label for="two-bed"><input type="radio" id="two-bed" name="roomType" value="Two-bed"> Two Bed</label>
                         <label for="more-bed"><input type="radio" id="more-bed" name="roomType" value="More-bed"> More Beds (For 10+ people)</label>
                     </div>
-                    <label for="number">Number of Rooms: <input class="text-input" name="rooms" type="number" min="1" required></label>
+                    <label for="number">Number of Rooms: <input class="text-input" id="number" name="rooms" type="number" min="1" required></label>
                     <label for="booker-name">Full Name: <input class="text-input" name="booker-name" type="text" id="booker-name" placeholder='"John Doe"' pattern="[A-Za-z ]{4,}" required></label>
-                    <label for="booker-email">Email: <input class="text-input" name="booker-email" class="text-input" type="email" id="booker-email" placeholder='"you@example.com"' required></label>
+                    <label for="booker-email">Email: <input class="text-input" name="booker-email" type="email" id="booker-email" placeholder='"you@example.com"' required></label>
                     <label for="booker-phone">Phone: <input class="text-input" name="booker-phone" type="tel" id="booker-phone" placeholder='"123456789"' pattern="[0-9]{10,15}" required></label>
                     <label for="booker-home">Home State/Country: <input class="text-input" name="booker-country" type="text" id="booker-home" placeholder='(e.g. "Idaho", "Guam")' pattern="[A-Za-z ]{2,56}" required></label>
                     <label for="comments">Special Accommodations/Comments: <textarea id="comments" name="comments" rows="4" cols="40"></textarea></label>
@@ -97,8 +97,7 @@
                 </div>
             </div>
         </footer>
-        
+        <script src="js/main.js"></script>
+        <script src="js/reservation.js"></script>
     </body>
-    <script src="js/main.js"></script>
-    <script src="js/reservation.js"></script>
 </html>

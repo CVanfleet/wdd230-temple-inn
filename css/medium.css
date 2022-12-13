@@ -80,4 +80,71 @@
         }
     /*#endregion Temples*/
 
+    /*#region Services*/
+    div#amenities-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    /*#endregion Services*/
+
+    /*#region Reception-info*/
+    div#accommodation-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    div#accommodation-info div:nth-child(3){
+        grid-column: 1 / 3;
+    }
+    /*#endregion Reception-info*/
+
+    /*#region Missionary*/
+    div#form-elements{
+        display: flex;
+    }
+
+    div#form-elements div:nth-child(1){
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    div#form-elements div:nth-child(2){
+        margin-right: auto;
+    }
+
+    div#contact-us-container h4 {
+        text-align: center;
+    }
+
+    input#send-left.send-message{
+        margin-top: 25px;
+        display: block;
+    }
+
+    input#send-right.send-message{
+        display: none;
+    }
+
+    main#main-missionary{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+
+    main#main-missionary > h1 {
+        grid-column: 1 / 3;
+    }
+
+    main#main-missionary div:nth-child(4){
+        grid-column: 1/3;
+    }
+
+    main#main-missionary div#contact-us-container{
+        grid-column: 1 / 3;
+    }
+
+
+    /*#endregion Missionary*/
 }

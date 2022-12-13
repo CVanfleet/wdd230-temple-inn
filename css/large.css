@@ -76,5 +76,23 @@
     }
     /*#endregion Reservation*/
 
+    /*#region Missionary*/
+    main#main-missionary{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main#main-missionary > h1 {
+        grid-column: 1 / 4;
+    }
+
+    main#main-missionary div:nth-child(4){
+        grid-column: 3/4;
+    }
+
+    main#main-missionary div#contact-us-container{
+        grid-column: 1 / 4;
+    }
+    /*#endregion Missionary*/
+
 
 }

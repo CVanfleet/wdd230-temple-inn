@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Temple Inn & Suites - Home</title>
+        <title>Temple Inn & Suites - Receptions</title>
         <link rel="icon" href="/images/favicon.ico">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +29,7 @@
             <div id="date"><span id="currDate"></span></div>
             <nav id="navList">
                 <ul>
-                    <li class="active">
+                    <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
@@ -45,74 +45,39 @@
             </nav>
             <div class="call-to-action" id="cta-below"><a href="/reservation.html">Book Now!</a></div>
         </header>
-        <main id="main-home">
-            <section class="portal-elements" id="special-events">
-                <div>
-                    <h2>Special Events</h2>
-                    <p>50% each room for youth groups visiting the temple</p>
-                </div>
-                <picture>
-                    <source media="(100px <= width <= 624px)" srcset="images/youth-group-small.jpeg">
-                    <source media="(625px <= width)" srcset="images/youth-group-medium.jpeg">
-                    <img src="images/youth-group-medium.jpeg" alt="room image">
-                </picture>
-            </section>
-            <section class="portal-elements" id="call-to-action-element">
-                <div>
-                    <h2>Looking to book a trip?</h2>
-                    <div class="call-to-action-2"><a href="/reservation.html">Book Now!</a></div>
-                </div>
-                <picture>
-                    <source media="(100px <= width <= 450px)" srcset="images/room-small.jpeg">
-                    <source media="(451px <= width <= 800px)" srcset="images/room-medium.jpeg">
-                    <source media="(801px <= width)" srcset="images/room-large.jpeg">
-                    <img src="images/room-medium.jpeg" alt="room image">
-                </picture>
-            </section>
-            <section class="portal-elements" id="temple-info">
-                <div>
-                    <h2>Temple Info</h2>
-                    <label for="temple">Temple: </label>
-                    <select name="temple" id="temple">
-                        <option value="" disabled selected hidden>Select Temple</option>
-                    </select>
-                </div>
-                <picture id="temple-image">
-                    <source media="(100px <= width <= 450px)" srcset="images/temples/payson-small.jpeg">
-                    <source media="(451px <= width <= 800px)" srcset="images/temples/payson-medium.jpeg">
-                    <source media="(801px <= width)" srcset="images/temples/payson-large.jpeg">
-                    <img src="images/temples/payson-medium.jpeg" alt="temple image">
-                </picture>
-                <div>
-                    <p>Address: <span id="address">1494 S 930 W Payson UT 84651 United States</span></p>
-                    <p>Phone: <span id="phone">(1)801-754-4949</span></p>
-                    <p>Email: <span id="email">paysontemple@churchofjesuschrist.com</span></p>
-                    <div class="more-info"><a href="/temple.html">More Info  &#10145;</a></div>
-                </div>
-            </section>
-            <section class="portal-elements" id="weather">
-                <h2>Weather</h2>
-                <h3><span id="city"></span></h3>
-                <div>
-                    <img src="" alt="" id="weathericon">
-                    <p><span id="current-temp"></span>&#8457;</p>
-                </div>
-                <div>
-                    <p><span id="current-weather"></span></p>
-                    <hr>
+        <main id="main-reception">
+            <h1>Reception accommodations</h1>
+            <div id="accommodation-info">
+                <div id="food" class="food-setup">
                     <div>
-                        <p>Feels Like: <span id="feels-like"></span>&#8457;</p>
-                        <p>Humidity: <span id="humidity"></span>%</p>
-                        <p>High: <span id="temp-high"></span>&#8457; Low: <span id="temp-low"></span>&#8457;</p>
+                        <h2>Food Services</h2>
+                        <picture>
+                            <source media="(100px <= width <= 450px)" srcset="images/food-service-small.png">
+                            <source media="(451px <= width <= 800px)" srcset="images/food-service-medium.png">
+                            <source media="(801px <= width)" srcset="images/food-service-large.png">
+                            <img src="images/food-service-medium.png" alt="picture of lobby">
+                        </picture>
                     </div>
+                    <p>We provide a variety of different food items we can serve at your reception!</p>
                 </div>
-            </section>
-            <section class="portal-elements" id="contact-info">
-                <h2>Contact Info</h2>
-                <p>Phone: (1)667-321-1234</p>
-                <p>Fax: (1)667-321-0002</p>
-                <p>Email: support@templeinnandsuites.com</p>
-            </section>
+                <div id="setup" class="food-setup">
+                    <div>
+                        <h2>Setup</h2>
+                        <picture>
+                            <source media="(100px <= width <= 450px)" srcset="images/set-up-small.jpeg">
+                            <source media="(451px <= width <= 800px)" srcset="images/set-up-medium.jpeg">
+                            <source media="(801px <= width)" srcset="images/set-up-large.jpeg">
+                            <img src="images/set-up-medium.jpeg" alt="picture of reception setup">
+                        </picture>
+                    </div>
+                    <p>Our locations have beautiful venues, perfect for your big day, and we will set it all up for you!</p>
+                </div>
+                <div class="call-to-action">
+                    <h4>What are you waiting for?</h4>
+                    <a href="reservation.html">Book Now!</a>
+                </div>
+            </div>
+
         </main>
         <footer>
             <div>
@@ -138,7 +103,5 @@
             </div>
         </footer>
         <script src="js/main.js"></script>
-        <script src="js/home.js" type="module"></script>
     </body>
-    
 </html>
